@@ -1,0 +1,16 @@
+[package]
+name = "rust-headless-gfx-example"
+version = "0.1.0"
+authors = ["Charles Samborski <demurgos@demurgos.net>"]
+edition = "2018"
+
+[dependencies]
+shaderc = "^0.3.16"
+gfx-hal = "^0.1.0"
+#gfx-backend-empty = { version = "^0.1.0", optional = true }
+#gfx-backend-dx12 = { version = "^0.1.0", optional = true }
+#gfx-backend-gl = { version = "^0.1.0", optional = true }
+#gfx-backend-metal = { version = "^0.1.0", optional = true }
+gfx-backend-vulkan = { version = "^0.1.0", optional = false }
+env_logger = "^0.6.1"
+nalgebra-glm = "^0.4.0"
